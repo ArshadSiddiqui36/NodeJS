@@ -1,0 +1,10 @@
+Events Module
+
+Node.js has a built-in module, called "Events",
+Where we can create-, fire-, and listen for- our own events.
+
+Example 1 - Registering for the events to be fired only one time events.
+
+Example 2 - Create an events emitter instance and register a couple of callbacks.
+
+Example 3 - Registering for the events with callback parameters.
