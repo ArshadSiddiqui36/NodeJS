@@ -1,0 +1,87 @@
+Install NodeJs :
+	https://nodejs.org/en/
+
+		Start CMD and Check :
+			node -v
+			npm -v
+
+Install Visual Studio :
+	https://code.visualstudio.com/
+		
+		Create index.js File :
+			console.log("Welcome to my NodeJs project");
+			
+		Open New Terminal :
+			Type: node index.js
+			To run program
+
+Set Of Instructions :
+
+	Open Visual Studio :
+		Go to Terminal
+			Type : node
+			Then REPL (Node CMD) will start automatically
+			Type : .exit
+			Then REPL will exit
+			Type : type null > index.js
+			Then will be create a "index.js" file
+
+			REPL
+			1: Js expression
+			2: Use variables
+			3: Multi line code
+			4: Use (_) to get the last result
+			5: We can use editor mode
+				Type: node
+				Type: .editor
+				Press Tab two times to see the list of methods and properties
+				Type: fs
+
+
+
+		NodeJS Core Modules
+			1: Fs (File System)
+				
+				1: Fs Using Buffer
+					1.Create File/Folder
+					2.Read & Write File
+					3.Rename File
+					4.Append Data in File
+
+					// Add module fs (File System)
+					const fs = require("fs");
+
+					// Creating a new file
+					// fs.writeFileSync("read.txt", "Welcome to my project");
+
+					// Override the data if file present or exist already otherwise create new file
+					// fs.writeFileSync("read.txt", "Welcome to my NodeJS project");
+
+					// Append data in Present file
+					// fs.appendFileSync("read.txt", " How are you? I am fine, Thank you.");
+
+					// Read file
+					// Node.js includes an additional data type called Buffer
+					// (not availble in browser's JavaScript).
+					// Buffer is mainly used to store binary data,
+					// While reading from a file or recieving packets over the network.
+					// fs.readFileSync("read.txt");
+
+					// const buff_data = fs.readFileSync("read.txt");
+					// console.log(buff_data);
+
+					// org_data = buff_data.toString();
+					// console.log(org_data);
+
+					// Rename the file
+					// fs.renameSync("read.txt", "readwrite.txt");
+
+				2: Fs CRUD (Create,Read,Update,Delete) Operation
+					1.Create Folder/File
+					2.Write & Update Data
+					3.Read Without Buffer
+					4.Rename & Delete Both
+
+
+
+
