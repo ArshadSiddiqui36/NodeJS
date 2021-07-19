@@ -1,0 +1,9 @@
+API Call
+api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+
+
+API Key (Default)
+d39a046c717c0b7efc0a22b546acd0a2
+
+Complete API Call with API Key
+api.openweathermap.org/data/2.5/weather?q=Lucknow&appid=d39a046c717c0b7efc0a22b546acd0a2
