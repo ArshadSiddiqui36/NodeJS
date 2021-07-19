@@ -1,0 +1,32 @@
+1. Open Terminal
+2. Go to your root folder where you want to initialize nmp
+3. Give command : "npm init"
+4. Package name : You can change your package name or leave default
+5. Version : (leave as default)
+6. Description : Set your description or leave default
+7. Entry point : You can change or leave default
+8. git repository : Set git repository or leave default
+9. Keywords : You can set or leave default
+10. Author : Give author name or leave default
+11. license : Leave default
+
+12. You will see your package.json file will be ready
+
+
+Go to npmjs.com
+and add any dependencies, packages and modules
+
+1. chalk
+    1. npm i chalk or npm install chalk
+
+
+2. validator
+    1. npm i validator or npm install validator
+
+
+3. nodemon
+    1. npm i nodemon or npm install nodemon (locally)
+    2. npm install -g nodemon
+    3. nodemon -v (To check installation)
+        If it gives any error then follow your error instruction and solve
+        If it gives error related to disable script the go to the given path in error description and delete "nodemon.ps1" file
